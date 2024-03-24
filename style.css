@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color_changer_buttons ul{
+    display: flex;
+    /* background-color: coral; */
+    border-bottom: 1px solid rgb(146, 144, 143);
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+ul li{
+    list-style-type: none;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 12rem;
+}
+
+#Green_Teal{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #08784F;
+    color: white;
+    font-size: 20px;
+}
+
+#Night{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #070505;
+    color: white;
+    font-size: 20px;
+}
+#Dark_Maroon{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #360007;
+    color: white;
+    font-size: 20px;
+}
+#Surfie_Green{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #095F5D;
+    color: white;
+    font-size: 20px;
+}
+#Mulberry{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #71073C;
+    color: white;
+    font-size: 20px;
+}
+
+#Medium_Brown{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #633F0D;
+    color: white;
+    font-size: 20px;
+}
